@@ -24,7 +24,7 @@ contract TodoList {
   );
 
   constructor() public {
-    createTask("Check out dappuniversity.com");
+    createTask("Check out my first dApp");
   }
 
   function createTask(string memory _content) public {
